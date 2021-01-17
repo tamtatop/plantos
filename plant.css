@@ -1,0 +1,165 @@
+/*body {
+	background-color: red;
+}*/
+
+.intro {
+	display: grid;
+	width: 100%;
+	/*box-shadow: 0 4px 6px grey;*/
+	grid-template-columns: repeat(2,1fr);
+	/*grid-template-columns: 50% 50%;*/
+	grid-gap: 0.5rem;
+	box-sizing: border-box;
+	background-color: #fdf5f5;
+	padding-top: 10vh;
+}
+
+/*
+
+
+	CARDS ----------------------------------------------------------------------------------------------------------------------------
+
+
+*/
+
+.card {
+	display: flex;
+	flex-direction: row;
+	box-shadow: 0 4px 6px grey;
+	border-radius: 10px;
+	margin: 1%;
+	cursor: pointer;
+	background-color: white;
+}
+.emoji {
+	width: 20%;
+	height: auto;
+	display: flex;
+	align-items: center;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+.info {
+	display: flex;
+	/*align-items: center;*/
+	flex-direction: column;
+	width: 75%
+}
+
+.info h1 {
+	font-size: 0.9rem;
+	padding-top: 10%;
+	padding-bottom: 7%;
+	font-weight: 600;
+}
+
+.info p {
+	font-size: 0.9rem;
+	font-weight: 400;
+	margin-bottom: 10%
+}
+
+.cards {
+	display: grid;
+	height: 40vh;
+	/*box-shadow: 0 4px 6px grey;*/
+	grid-template-columns: repeat(3,1fr);
+	grid-gap: 0.5rem;
+	box-sizing: border-box;
+	padding-left: 50px;
+}
+/*
+
+	
+	IMAGE GALLERY ---------------------------------------------------------------------------------------------------------------------
+
+
+*/
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  /*max-width: 1000px;*/
+  /*position: relative;*/
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 50px;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev {
+	margin-left: 50px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+.mySlides img {
+	width: 100% !important;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}

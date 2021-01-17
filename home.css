@@ -1,0 +1,10 @@
+#navbar {
+	display: flex;
+	flex-direction: row;
+	height: 10vh;
+}
+
+#navbar img {
+	padding-left: 3vw;
+	height: 7vh;
+}
