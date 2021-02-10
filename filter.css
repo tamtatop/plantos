@@ -1,0 +1,155 @@
+.flContainer {
+	margin: 20px;
+}
+.flTitle {
+	font-size: 1.75rem;
+	font-weight: 700;
+	margin: 20px 0;
+	color: var(--c-grey-darkest);
+	font-family: var(--ff-title);
+	letter-spacing: -0.025rem;
+}
+
+.filterTitle {
+	font-size: 1rem;
+	font-weight: 600;
+	/*margin-bottom: 0.5rem;*/
+	color: var(--c-grey-darkest);
+	font-family: var(--ff-title);
+}
+
+.flUnderline {
+	background-color: var(--c-primary);
+	width: 30px;
+	height: 3px;
+	margin-top: 2px;
+}
+
+
+.filterComp {
+	display: flex;
+	width: 92vw;
+	padding: 2vw;
+	flex-direction: row;
+	flex-wrap: wrap;
+	background-color: var(--c-grey-lightest);
+	/*background-color: gray;*/
+	border-radius: 10px;
+	margin: 2vw 0 30px;
+}
+
+.flTile {
+	border: 2px solid white;
+	display: flex;
+	background-color: white;
+	margin: 5px;
+	display: flex;
+	cursor: pointer;
+	border-radius: 7px;
+	padding: 10px;
+	align-items: center;
+	justify-content: center;
+}
+
+.num_tile img {
+	display: none;
+}
+
+.mini_tile img {
+	width: 10px;
+}
+
+.small_tile img {
+	width: 15px;
+}
+
+.medium_tile img {
+	width: 20px
+}
+
+.big_tile img {
+	width: 25px;
+}
+
+.flTile:hover {
+	box-shadow: rgba(1, 1, 1, 0.1) 0px 9px 9px -4px;
+	transform: translateY(-2px);
+}
+
+#leaf
+
+.flEmoji {
+	width: 25px;
+	height: auto;
+}
+
+.flPhoto {
+	width: 20px;
+	height: auto;
+}
+
+.flText {
+	font-family: var(--my-font);
+	font-size: 1rem;
+	font-weight: 500;
+	color: var(--c-grey-dark);
+	padding: 7px;
+}
+
+.active {
+	border-color: var(--c-primary);
+}
+
+.active .flText {
+	color: var(--c-primary-darkest)
+}
+
+/*///////////////////// RESULT BUTTON /////////////////////////////////*/
+
+.flResult {
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background: white;
+	height: 75px;
+	padding-left: 1.25rem;
+	padding-right: 1.25rem;
+	display: flex;
+	align-items: center;
+	font-family: var(--ff-text);
+	font-weight: 400;
+	font-size: 1rem;
+	box-shadow: rgba(1, 1, 1, 0.1) 0px -2px 9px -2px;
+    border-top: 1px solid var(--c-grey-lightest);
+}
+
+.flResultBut {
+	background-color: var(--c-primary);
+	padding: 0.75rem 1.25rem;
+	font-size: 1.1rem;
+	width: 100%;
+	border: 0px;
+	color: white;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.flResultBut:hover{
+	background-color: var(--c-primary-dark);
+	/*border-color: var(--c-primary-dark);*/
+}
+
+
+
+/*@media screen and (min-width:350px) {
+
+}
+
+@media screen and (min-width:768px) {
+ 
+}
+
+@media screen and (min-width:1400px) {
+ */
+}

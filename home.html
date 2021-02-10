@@ -1,30 +1,35 @@
 <html>
 	<head>
-		<link rel="stylesheet" href="home.css">
 		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="home.css">
+		<link rel="stylesheet" href="variables.css">
+		<link rel="stylesheet" href="filter.css">
+		<title>Home</title>
 	</head>
 	<body>
-		<div id="content">
-			<div id="navbar">
-				<div id="logo">
-					<div id="imgDiv">
-						<img src="logo.jpg">
+		<div class="container">
+			<div class="navbar">
+				<div class="logo">
+					<img class="logoImg" src="emojis/logo.svg">
+					<div class="textDiv">Plantos</div>
+				</div>
+			</div>
+			<div class="content">
+				<div class="titleBox">
+					<div class="title">
+						<div class="titleText">Discover beautiful houseplants to love and learn its care</div>
+						<div class="subtitleText">Find plants by they look and learn its care. Plants for beginners, safe plants for pets, air purifier plants and more!</div>
 					</div>
-					<div id="textDiv">
-						<h1>Plantos</h1>
-					</div>
+				</div>
+				<div class="fiterPanel">
+					<button class="filtersBut">Filters</button>
+				</div>
+				<div class="popup"></div>
+				<div class="menu">
 					
 				</div>
 			</div>
-			<div id="title">
-				
-			</div>
-			<div id="fiterPanel">
-				
-			</div>
-			<div id="menu">
-				
-			</div>
 		</div>
+		<script type="module" src="home.js"></script>
 	</body>
 </html>
