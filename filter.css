@@ -1,6 +1,19 @@
 .flContainer {
-	margin: 20px;
+	margin: 15px;
+	/*width: 550px;*/
 }
+
+.flContent {
+	display: flex;
+	flex-direction: column;
+}
+
+.flMain {
+	display: flex;
+	flex-direction: column;
+	/*width: 500px;*/
+}
+
 .flTitle {
 	font-size: 1.75rem;
 	font-weight: 700;
@@ -13,7 +26,7 @@
 .filterTitle {
 	font-size: 1rem;
 	font-weight: 600;
-	/*margin-bottom: 0.5rem;*/
+	margin-bottom: 0.5rem;
 	color: var(--c-grey-darkest);
 	font-family: var(--ff-title);
 }
@@ -28,14 +41,14 @@
 
 .filterComp {
 	display: flex;
-	width: 92vw;
-	padding: 2vw;
+	/*width: 550px;*/
+	padding: 10px;
 	flex-direction: row;
 	flex-wrap: wrap;
 	background-color: var(--c-grey-lightest);
 	/*background-color: gray;*/
 	border-radius: 10px;
-	margin: 2vw 0 30px;
+	margin: 10px 0 30px;
 }
 
 .flTile {
@@ -107,10 +120,11 @@
 /*///////////////////// RESULT BUTTON /////////////////////////////////*/
 
 .flResult {
-	position: fixed;
+	/*position: fixed;*/
 	bottom: 0px;
 	left: 0px;
-	right: 0px;
+	z-index: 1050;
+	/*width: 100%;*/
 	background: white;
 	height: 75px;
 	padding-left: 1.25rem;
@@ -122,6 +136,12 @@
 	font-size: 1rem;
 	box-shadow: rgba(1, 1, 1, 0.1) 0px -2px 9px -2px;
     border-top: 1px solid var(--c-grey-lightest);
+
+    /*position: absolute;*/
+	/*bottom: 0px;
+	left: 0px;
+	right: 0px;*/
+	position: relative;
 }
 
 .flResultBut {
@@ -140,6 +160,11 @@
 	/*border-color: var(--c-primary-dark);*/
 }
 
+@media screen and (min-width:992px) {
+	.filterComp {
+		/*width: 550px !important;*/
+	}
+}
 
 
 /*@media screen and (min-width:350px) {

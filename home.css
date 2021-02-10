@@ -36,7 +36,6 @@ body {
 	display: flex;
 	align-items: center;
 	height: 50px;
-	width: 97vw;
 	padding: 10px;
 	padding-left: 20px;
 }
@@ -90,6 +89,24 @@ body {
 .filtersBut:hover {
 	background-color: var(--c-primary-dark);
 }
+
+/****************** FILTER POPUP ********************/
+
+.popup {
+	position: absolute;
+	max-height: initial;
+	overflow: auto;
+	z-index: 1050;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	background-color: white;
+	box-shadow: rgba(1, 1, 1, 0.5) 0px 22px 51px -8px;
+	border-bottom-right-radius: 10px;
+	border-top-right-radius: 10px;
+	width: 500px;
+}
+
 
 /****************** MEDIA TAG ********************/
 

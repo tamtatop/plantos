@@ -25,12 +25,14 @@ function smallFilterComponent(data){
 
 function filterComponent(data){
 	return `
-		<div class="filterTitle">
-			${data.title}
-		</div>
-		<div class="flUnderline"></div>
-		<div class="filterComp" data-title="${data.title}">
-			${data.features.map(subData => smallFilterComponent(subData)).join('')}
+		<div class="comp">
+			<div class="filterTitle">
+				${data.title}
+			</div>
+			<div class="flUnderline"></div>
+			<div class="filterComp" data-title="${data.title}">
+				${data.features.map(subData => smallFilterComponent(subData)).join('')}
+			</div>
 		</div>
 	`
 }
