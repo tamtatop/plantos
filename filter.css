@@ -8,6 +8,41 @@
 	flex-direction: column;
 }
 
+/*///////////////////// CLOSE BUTTON /////////////////////////////////*/
+
+.flClose {
+	display: flex;
+	width: 100%;
+	justify-content: flex-end;
+	/*position: absolute;
+	right: 0px;
+	left: 0px;
+	top: 0px;*/
+}
+
+.flCloseBut {
+	margin-right: 5px;
+	border: 0px;
+	background-color: white;
+	cursor: pointer;
+	border-radius: 4px;
+	height: 40px;
+	width: 50px;
+}
+
+.flCloseBut:hover {
+	background-color: var(--c-grey-light);
+}
+
+.flCloseBut img{
+	width: 20px;
+	height: auto;
+}
+
+
+/*///////////////////// FILTER /////////////////////////////////*/
+
+
 .flMain {
 	display: flex;
 	flex-direction: column;
@@ -17,7 +52,7 @@
 .flTitle {
 	font-size: 1.75rem;
 	font-weight: 700;
-	margin: 20px 0;
+	margin: 10px 0 20px;
 	color: var(--c-grey-darkest);
 	font-family: var(--ff-title);
 	letter-spacing: -0.025rem;

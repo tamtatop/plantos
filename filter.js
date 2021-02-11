@@ -4,7 +4,8 @@ export function render() {
 		console.log(html);
 		document.querySelector('.popup').innerHTML=html;
 		document.querySelector('.flMain').innerHTML = filterAll(filtersData);
-		document.querySelectorAll('.flTile').forEach(item => item.addEventListener("click", (e)=>{tileClicked(item)}));
+		addListeners();
+
 	});
 	console.log("HERE");
 }
@@ -206,6 +207,21 @@ function sendRequest(){
 	  method: 'post',
 	  body: JSON.stringify(toSend)
 	})
+}
+
+function addListeners(){
+		document.querySelectorAll('.flTile').forEach(item => item.addEventListener("click", (e)=>{tileClicked(item)}));
+		document.querySelector('.flCloseBut').addEventListener("click", closeFilter)
+		document.querySelector('.flResultBut').addEventListener("click", closeFilter)
+		document.querySelector('.filtersBut').addEventListener("click", openFilter)
+}
+
+function closeFilter(){
+	document.querySelector('.popup').style.display = "none";
+}
+
+function openFilter(){
+	document.querySelector('.popup').style.display = "block";
 }
 
 console.log('bla')

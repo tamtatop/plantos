@@ -1,0 +1,126 @@
+[
+	{
+		"name": "Alocasia Amazonica",
+		"description": "Alocasia Amazonica is a hybrid plant of Alocasia Longiloba and Alocasia Sanderiana that are native to Asia although this one is from America.",
+		"photo": "alocasia-amazonica-1.webp",
+		"features": [
+			{
+				"icon": "fire.svg",
+				"text": "trendy"
+			},
+			{
+				"icon": "photo.svg",
+				"text": "12"
+			}
+		]
+	},
+	{
+		"name": "Ceropegia Woodii",
+		"description": "The Ceropegia Woodii is a trailing plant native to South Africa with a delicate heart-shaped foliage and slender vines that can reach up to 12' long in its natural environment. Some people like this plant because it looks beautiful as a hanging plant.",
+		"photo": "ceropegia-woodii-1.webp",
+		"features": [
+			{
+				"icon": "fire.svg",
+				"text": "trendy"
+			},
+			{
+				"icon": "photo.svg",
+				"text": "4"
+			}
+		]
+	},
+	{
+		"name": "Epipremnum Aureum Glacier",
+		"description": "Epipremnum Aureum Glacier is a small pothos variety in the market and it has a nice green and white contrast on their small leaves. Glacier Pothos is commonly confused with Pearls and Jade Pothos and Njoy Pothos although you can differentiate your Glacier because it tends to have more silvery-gray mottling/streaking than others and smaller leaves.",
+		"photo": "epipremnum-aureum-glacier-1.webp",
+		"features": [
+			{
+				"icon": "fire.svg",
+				"text": "trendy"
+			},
+			{
+				"icon": "medal.svg",
+				"text": "popular"
+			},
+			{
+				"icon": "photo.svg",
+				"text": "12"
+			}
+		]
+	},
+	{
+		"name": "Ficus Lyrata",
+		"description": "Ficus Lyrata commonly known as Fiddle Leaf Fig is a ficus that has become very popular in recent years thanks to how elegant and beautiful it is, the large size of its leaves, and how easy it is to take care of it.",
+		"photo": "ficus-lyrata-1.webp",
+		"features": [
+			{
+				"icon": "fire.svg",
+				"text": "trendy"
+			},
+			{
+				"icon": "photo.svg",
+				"text": "21"
+			}
+		]
+	},
+	{
+		"name": "Monstera Pinnatipartita",
+		"description": "Monstera Pinnatipartita is a rare evergreen and beautiful climbing plant originally from South America that looks similar to Monstera Deliciosa. It has divided leaves when it matures and produces white waxy flowers that along with its aerial roots, make it look wildly.",
+		"photo": "monstera-pinnatipartita-1.webp",
+		"features": [
+			{
+				"icon": "leaf-monstera.svg",
+				"text": "rare"
+			},
+			{
+				"icon": "photo.svg",
+				"text": "8"
+			}
+		]
+	},
+	{
+		"name": "Sansevieria Trifasciata Black Coral",
+		"description": "Sansevieria Trifasciata Black Coral is a variety of snake plant with narrow leaves with vertically wide gray-green wavy horizontal bands on a dark green background.",
+		"photo": "sansevieria-trifasciata-black-coral-1.webp",
+		"features": [
+			{
+				"icon": "medal.svg",
+				"text": "popular"
+			},
+			{
+				"icon": "photo.svg",
+				"text": "9"
+			}
+		]
+	},
+	{
+		"name": "Senecio Rowleyanus",
+		"description": "Senecio Rowleyanus are succulent plants native to Africa with a beautiful look. String of Pearls is a drought-tolerant plant that stores water in its rounded leaves that reminds us of small pearls making it sensitive to water, so avoid overwatering it.",
+		"photo": "senecio-rowleyanus-1.webp",
+		"features": [
+			{
+				"icon": "fire.svg",
+				"text": "trendy"
+			},
+			{
+				"icon": "photo.svg",
+				"text": "14"
+			}
+		]
+	},
+		{
+		"name": "Spathiphyllum Wallisii",
+		"description": "The Peace Lily has been around for decades for a good reason: It is one of the easiest houseplants to grow because they thrive in low light conditions though they are toxic if ingested, so not highly recommended if you have cats, dogs or children.",
+		"photo": "spathiphyllum-wallisii-1.webp",
+		"features": [
+			{
+				"icon": "medal.svg",
+				"text": "popular"
+			},
+			{
+				"icon": "photo.svg",
+				"text": "1"
+			}
+		]
+	}
+]
