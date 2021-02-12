@@ -86,6 +86,10 @@
 	position: relative;*/
 }
 
+.gridComp {
+	cursor: pointer;
+}
+
 .gridComp img {
 	max-width: 100%;
 	width: 300px;
