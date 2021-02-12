@@ -17,6 +17,7 @@
 	height: 50px;
 	padding: 10px;
 	padding-left: 20px;
+	text-decoration: none;
 	cursor: pointer;
 }
 
@@ -38,6 +39,7 @@
 }
 
 .menuElem {
+	text-decoration: none;
 	color: var(--c-grey-dark);
 	font-weight: 600;
 	cursor: pointer;

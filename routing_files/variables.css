@@ -1,0 +1,18 @@
+body {
+	font-family: var(--ff-text);
+	color: var(--c-grey-dark);
+	font-weight: 400;
+	font-size: 1rem;
+}
+
+:root {
+	--ff-title: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+	--ff-text: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+	--c-grey-dark: #495057;
+	--c-grey-lightest: #f7f7f7;
+	--c-grey-darkest: #3b3b3b;
+	--c-primary-dark: #319e40;
+	--c-primary: #50c761;
+	--c-primary-darkest: #177324;
+	--c-grey-light: #e8e8e8;
+}

@@ -1,0 +1,200 @@
+.content {
+	margin-left: 5vw;
+	margin-right: 5vw;
+}
+
+/****************** NAVBAR ********************/
+
+
+
+/****************** TITLE BAR ********************/
+
+.title {
+	text-align: center;
+	color: var(--c-grey-darkest);
+	max-width: 650px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.titleText {
+	font-size: 2.25rem;
+	font-weight: 900;
+	font-family: var(--ff-title);
+	letter-spacing: -0.025rem;
+}
+
+.subtitleText {
+	font-size: 1.125rem;
+	line-height: 1.45;
+	letter-spacing: 0.25px;
+	margin-top: 20px;
+}
+
+/****************** FILTER BUTTON ********************/
+
+.filtersBut {
+	background-color: var(--c-primary);
+	padding: 0.75rem 1.25rem;
+	font-size: 1.1rem;
+	width: 100px;
+	border: 0px;
+	color: white;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-top: 5vw;
+}
+
+.filtersBut:hover {
+	background-color: var(--c-primary-dark);
+	transition: background-color 0.35s ease;
+}
+
+/****************** FILTER POPUP ********************/
+
+.popup {
+	display: none;
+	position: fixed;
+	max-height: initial;
+	overflow: auto;
+	z-index: 1050;
+	left: 0;
+	bottom: 0;
+	background-color: white;
+	box-shadow: rgba(1, 1, 1, 0.5) 0px 22px 51px -8px;
+}
+
+/****************** PLANTS GRID ********************/
+
+.plantsGrid {
+	display: grid;
+	row-gap: 3rem;
+	grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+	/*grid-template-columns: 50% 50%;*/
+	grid-gap: 2rem 1rem;
+	margin-top: 20px;
+}
+
+.imgContainer {
+	/*display: flex;
+	border-radius: 10px;
+	background-color: var(--c-grey-lightest);
+	justify-content: center;
+	overflow: hidden;
+	color: var(--c-grey);
+	max-width: 100%;
+	position: relative;*/
+}
+
+.gridComp {
+	cursor: pointer;
+}
+
+.gridComp img {
+	max-width: 100%;
+	width: 300px;
+	border-radius: 10px;
+	height: 60%;
+}
+
+.plantName {
+	text-align: left;
+	font-size: 1.15rem;
+	font-weight: 600;
+	color: var(--c-grey-darkest);
+	font-family: var(--ff-title);
+	letter-spacing: -0.025rem;
+	margin: 15px 0;
+}
+
+.plantDesc {
+	color: var(--c-grey-dark);
+	font-size: 0.95rem;
+	font-weight: 500;
+	line-height: 1.5;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 5;
+	-webkit-box-orient: vertical;
+}
+
+.plantFeatures {
+	display: flex;
+	flex-direction: row;
+	padding-top: 15px;
+}
+
+.feature {
+	align-items: center;
+	background-color: var(--c-grey-lightest);
+	border-radius: 999px;
+	color: var(--c-grey-dark);
+	display: inline-flex;
+	margin-bottom: 0.25rem;
+	margin-right: 0.25rem;
+	padding: 0.25rem 0.5rem;
+}
+
+.feature img {
+	width: 15px;
+	height: auto;
+	margin-right: 0.15rem;
+}
+
+.featureText {
+	font-size: 14px;
+	font-weight: 600;
+}
+
+/****************** MEDIA TAG ********************/
+
+
+@media screen and (min-width:350px) {
+	.title {
+		padding-left: 0.75rem;
+		padding-right: 0.75rem;
+	}
+}
+
+@media screen and (max-width:768px) {
+	.popup {
+		right: 0;
+		border-top-right-radius: 10px;
+		border-top-left-radius: 10px;
+		height: 70%;
+	}
+}
+
+@media screen and (min-width:768px) {
+ 	.title {
+ 		width: 95%;
+ 		margin-top: 5rem;
+		margin-bottom: 4rem;
+ 	}
+
+ 	.filtersBut{
+ 		margin-top: 0;
+ 	}
+
+ 	.popup {
+ 		top:0;
+ 		border-bottom-right-radius: 10px;
+ 		width: 500px;
+ 	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
