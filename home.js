@@ -1,6 +1,7 @@
 import * as Filter from './filter.js'
 import * as Header from './header.js'
 import * as Footer from './footer.js'
+import * as Plant from './plant.js'
 
 Filter.render();
 Header.render();
@@ -17,7 +18,7 @@ function featureComponent(data){
 
 function gridComponent(data){
 	return `
-		<div class="gridComp">
+		<div class="gridComp" id=${data.id}>
 			<div class="imgContainer">
 				<img src="homeImages/${data.photo}" alt=${data.name}>
 			</div>
@@ -34,4 +35,33 @@ function gridAll(data){
 	return data.map(subData => gridComponent(subData)).join('');
 }
 
-fetch('/json/all.json').then(response => response.json()).then(data => gridAll(data)).then(html => document.querySelector('.plantsGrid').innerHTML=html)
+fetch('/json/all.json').then(response => response.json()).then(data => gridAll(data)).then(html => {
+	document.querySelector('.plantsGrid').innerHTML=html;
+	addGridListeners();
+})
+
+function addGridListeners(){
+	document.querySelectorAll('.gridComp').forEach(item => item.addEventListener("click", (e)=>{plantClicked(item)}));
+}
+
+function plantClicked(item){
+	Plant.render(item.id);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

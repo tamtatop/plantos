@@ -1,0 +1,80 @@
+{
+	"name": "Alocasia Amazonica",
+	"otherNames": "Alocasia Amazonica is commonly known as alocasia polly, elephant ear, african mask.",
+	"description": "Alocasia Amazonica is a hybrid plant of Alocasia Longiloba and Alocasia Sanderiana that are native to Asia although this one is from America.\nThis plant commonly called Alocasia Polly is known as African Mask or Elephant Ear for its incredible color, shape, and resistance of its foliage that is hard, rub-resistant, and arrow-shaped. Furthermore, the thin the stems make the leaves to look bigger.\nAlocasias are tropical plants that like hot environments, with high humidity and therefore, they grow in humid soil and full of organic matter. In nature, they grow in the shade of tall trees that are filtered by the sun's rays.\nIf you're planning to have alocasias at home, be careful if you have children or animals because all alocasias are considered moderately toxic plants if ingested",
+	"features": [
+		{
+			"name": "Light",
+			"icon": "sun.svg",
+			"text": "Needs a bright light"
+		},
+		{
+			"name": "Leaf Size",
+			"icon": "leaf.svg",
+			"text": "It has big leaves"
+		},
+		{
+			"name": "Leaf Color",
+			"icon": "rainbow.svg",
+			"text": "Its leaves have only 1 color"
+		},
+		{
+			"name": "Room",
+			"icon": "house.svg",
+			"text": "Highly recommended for bathroom"
+		},
+		{
+			"name": "Toxic",
+			"icon": "skull.svg",
+			"text": "This plant is toxic if ingested"
+		}
+	],
+	"photos": [
+		"/alocasia/alocasia-amazonica-1.webp",
+		"/alocasia/alocasia-amazonica-2.webp",
+		"/alocasia/alocasia-amazonica-3.webp",
+		"/alocasia/alocasia-amazonica-4.webp",
+		"/alocasia/alocasia-amazonica-5.webp",
+		"/alocasia/alocasia-amazonica-6.webp",
+		"/alocasia/alocasia-amazonica-7.webp",
+		"/alocasia/alocasia-amazonica-8.webp",
+		"/alocasia/alocasia-amazonica-9.webp",
+		"/alocasia/alocasia-amazonica-10.webp"
+	],
+	"care": [
+		{
+			"title": "How much light does the plant need?",
+			"text": "Alocasia Amazonica needs bright light to grow healthy and to keep its beautiful intense foliage. In fact, Alocasia Polly can handle direct sunlight for a while if it's not super intense, but be careful because the leaves will burn easily.\nIt's best to situate your Alocasia Amazonica in a location that receives bright light to make alocasia foliage looks great and retains its deep green coloring. In fact, those living in an area where the temperatures and light conditions are not intense can place it in a location that receives direct sunlight.\nWhen Alocasia Amazonica doesn't get enough light it will lose color contrast even on its veins and will eventually, die. So its colors are a good light indication."
+		},
+		{
+			"title": "How to water Alocasia Amazonica?",
+			"text": "In nature, the parents of Alocasia Amazonica grow near sources of water and organic matter, making their roots always wet. For this reason, when having alocasias as houseplants we must water them often to keep their substrate moist at all times.\nAlocasias need to be watered frequently. You should water your alocasia every time the upper part of the soil is dry. I recommend you have a well-draining soil combined with organic matter to keep the humidity but not the water, or otherwise, the plant will die because its roots will run out of oxygen or its roots will rot.\nWater your Alocasia Amazonica less frequently during winter because the soil takes longer to dry."
+		},
+		{
+			"title": "What's the ideal humidity?",
+			"text": "Alocasia Amazonica needs moderate to high humidity levels are required, ideally greater than 50% humidity. If the humidity is below those levels, its leave will start to turn yellow and will die."
+		},
+		{
+			"title": "How to fertilize?",
+			"text": "Fertilize your Alocasia Amazonica every 2-4 weeks during the growing season with a balanced, water soluble fertilizer.\nDilute to half strength, particularly in spring and autumn. There is no need to fertilize during the winter. Flush the potting mix every 2-3 months."
+		},
+		{
+			"title": "Care tips",
+			"text": "The best place for your Alocasia Amazonica is a bright bathroom.\nAvoid placing your alocasia plant near heating or cooling vents."
+		}
+	],
+	"similar": [
+		{
+			"name": "Alocasia Portora",
+			"photo": "alocasia/alocasia-Portora-1.webp"
+		},
+		{
+			"name": "Alocasia Cuprea",
+			"photo": "alocasia/alocasia-cuprea-1.webp"
+		},
+		{
+			"name": "Alocasia Baginda",
+			"photo": "alocasia/alocasia-baginda-1.webp"
+		}
+	]
+}
