@@ -1,9 +1,10 @@
 import * as Filter from './filter.js'
+import * as Header from './header.js'
+import * as Footer from './footer.js'
 
 Filter.render();
-
-// document.querrySelector('.filterBut').addEventListener("click", )
-
+Header.render();
+Footer.render();
 
 function featureComponent(data){
 	return `

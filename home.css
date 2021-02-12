@@ -12,41 +12,7 @@ body {
 
 /****************** NAVBAR ********************/
 
-.navbar {
-	font-family: var(--ff-text);
-	color: var(--c-grey-dark);
-	background-color: white;
-	margin-bottom: 2rem;
-	border-bottom: 1px solid var(--c-grey-lightest);
-	min-height: 65px;
-	box-sizing: border-box;
-}
 
-.logoImg {
-	width: 40px;
-	height: 40px;
-	margin-right: 0.5rem;
-	border-radius: 999px;
-	background-color: var(--c-grey-lightest);
-	padding: 5px;
-	box-sizing: border-box;
-}
-
-.logo {
-	display: flex;
-	align-items: center;
-	height: 50px;
-	padding: 10px;
-	padding-left: 20px;
-}
-
-.textDiv {
-	color: var(--c-grey-darkest);
-	font-family: var(--ff-title);
-	letter-spacing: -0.25px;
-	font-weight: 900;
-	padding-left: 5px;
-}
 
 /****************** TITLE BAR ********************/
 
@@ -88,6 +54,7 @@ body {
 
 .filtersBut:hover {
 	background-color: var(--c-primary-dark);
+	transition: background-color 0.35s ease;
 }
 
 /****************** FILTER POPUP ********************/
@@ -221,9 +188,6 @@ body {
 
 }
 
-@media screen and (min-width:1400px) {
- 
-}
 
 
 

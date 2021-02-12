@@ -56,7 +56,7 @@ let filtersData = [
 					text: 'popular plants'
 				},
 				{
-					con: 'leaf-monstera.svg',
+					icon: 'leaf-monstera.svg',
 					text: 'rare plants'
 				}
 			]
@@ -211,9 +211,9 @@ function sendRequest(){
 
 function addListeners(){
 		document.querySelectorAll('.flTile').forEach(item => item.addEventListener("click", (e)=>{tileClicked(item)}));
-		document.querySelector('.flCloseBut').addEventListener("click", closeFilter)
-		document.querySelector('.flResultBut').addEventListener("click", closeFilter)
-		document.querySelector('.filtersBut').addEventListener("click", openFilter)
+		document.querySelector('.flCloseOnClick').addEventListener("click", closeFilter);
+		document.querySelector('.flResultBut').addEventListener("click", closeFilter);
+		document.querySelector('.filtersBut').addEventListener("click", openFilter);
 }
 
 function closeFilter(){

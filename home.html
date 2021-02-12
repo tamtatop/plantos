@@ -1,19 +1,17 @@
 <html>
 	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="reset.css">
 		<link rel="stylesheet" href="home.css">
 		<link rel="stylesheet" href="variables.css">
 		<link rel="stylesheet" href="filter.css">
+		<link rel="stylesheet" href="header.css">
+		<link rel="stylesheet" href="footer.css">
 		<title>Home</title>
 	</head>
 	<body>
 		<div class="container">
-			<div class="navbar">
-				<div class="logo">
-					<img class="logoImg" src="emojis/logo.svg">
-					<div class="textDiv">Plantos</div>
-				</div>
-			</div>
+			<div class="header"></div>
 			<div class="content">
 				<div class="titleBox">
 					<div class="title">
@@ -24,11 +22,12 @@
 				<div class="fiterPanel">
 					<button class="filtersBut">Filters</button>
 				</div>
-				<div class="menu">
+				<div class="chosenFilters">
 					
 				</div>
 				<div class="plantsGrid"></div>
 			</div>
+			<div class="footer"></div>
 		</div>
 		<div class="popup"></div>
 		<script type="module" src="home.js"></script>

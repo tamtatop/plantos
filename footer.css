@@ -1,0 +1,57 @@
+.footer {
+	display: flex;
+	flex-direction: row;
+	padding: 5vw;
+	justify-content: space-around;
+	border-top: 2px solid var(--c-grey-lightest);
+	margin-top: 5vw;
+}
+
+.ftComp {
+	margin: 10px;
+}
+
+.ftContent {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	margin: 5px 10px 10px 10px;
+}
+
+.ftSmallComp {
+	display: flex;
+	flex-direction: row;
+	margin: 0 1rem 0 0;
+	font-size: 0.9rem;
+	align-items: center;
+}
+
+.ftSmallComp img {
+	width: 15px;
+	height: 15px;
+	padding-right: 0.6rem;
+}
+
+.ftText {
+	padding: 0.6rem 0.6rem 0.6rem 0;
+	cursor: pointer;
+	text-decoration: none;
+	color: var(--c-grey-darkest);
+}
+
+.ftCompTitle {
+	font-weight: 600;
+	font-variant: all-small-caps;
+	letter-spacing: 0.025rem;
+}
+
+
+@media screen and (max-width: 650px) {
+	.footer {
+		flex-direction: column;
+	}
+
+	.ftContent {
+		flex-direction: row;
+	}
+}

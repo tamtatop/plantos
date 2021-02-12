@@ -1,0 +1,123 @@
+.navbar {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	font-family: var(--ff-text);
+	color: var(--c-grey-dark);
+	background-color: white;
+	margin-bottom: 2rem;
+	border-bottom: 1px solid var(--c-grey-lightest);
+	min-height: 65px;
+	box-sizing: border-box;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	height: 50px;
+	padding: 10px;
+	padding-left: 20px;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.logoImg {
+	width: 40px;
+	height: 40px;
+	margin-right: 0.5rem;
+	border-radius: 999px;
+	background-color: var(--c-grey-lightest);
+	padding: 5px;
+	box-sizing: border-box;
+}
+
+.menu {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-right: 10px;
+}
+
+.menuElem {
+	text-decoration: none;
+	color: var(--c-grey-dark);
+	font-weight: 600;
+	cursor: pointer;
+	padding: 1rem;
+	margin-right: 0.15rem;
+}
+
+.menuElem:hover {
+	background-color: var(--c-grey-lightest);
+	transition: background-color 0.35s ease;
+	border-radius: 5px;
+}
+
+.burgerMenu {
+	display: none;
+	align-items: center;
+	justify-content: center;
+	margin-right: 10px;
+}
+
+.burgerMenu img {
+	width: 20px;
+	height: 20px;
+}
+
+.burgerPopup {
+	display: none;
+	flex-direction: column;
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 400px;
+	background-color: white;
+	box-shadow: rgba(1, 1, 1, 0.5) 0px 22px 51px -8px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.burgerBut:hover {
+	background-color: var(--c-grey-light);
+}
+
+.burgerClose {
+	min-height: 70px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	border-bottom: 1px solid var(--c-grey-lightest) !important;
+}
+
+.bgCloseBut {
+	margin-right: 20px !important;
+}
+
+.textDiv {
+	color: var(--c-grey-darkest);
+	font-family: var(--ff-title);
+	letter-spacing: -0.25px;
+	font-weight: 900;
+	padding-left: 5px;
+}
+
+@media screen and (max-width:990px) {
+	.menu {
+		display: none;
+	}
+
+	.burgerMenu {
+		display: flex;
+	}
+
+	.burgerPopup {
+
+	}
+}
+
+@media screen and (max-width:500px) {
+	.burgerPopup {
+		width: 100%;
+	}
+}
