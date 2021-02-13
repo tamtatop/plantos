@@ -1,0 +1,90 @@
+{
+	"name": "Senecio Rowleyanus",
+	"otherNames": "Senecio Rowleyanus is commonly known as string of pearls, bowl of peas.",
+	"description": "Senecio Rowleyanus are succulent plants native to Africa with a beautiful look. String of Pearls is a drought-tolerant plant that stores water in its rounded leaves that reminds us of small pearls making it sensitive to water, so avoid overwatering it.\nDespite its delicate appearance, this unusual succulent plant is a vigorous grower, crawling quickly across the surface of the pot and then cascading down the side. Its stems can reach 60-90 cm.\nString of Pearls is generally used as a hanging plant. If so, it is important to make sure that the light reaches the top of the plant and not just the bottom, or it will rot.",
+	"features": [
+		{
+			"name": "Light",
+			"icon": "sun.svg",
+			"text": "Needs bright light"
+		},
+		{
+			"name": "Water",
+			"icon": "cactus.svg",
+			"text": "Drought tolerant plant, so you can forget to water it."
+		},
+		{
+			"name": "Leaf Size",
+			"icon": "leaf.svg",
+			"text": "It has small leaves"
+		},
+		{
+			"name": "Leaf Color",
+			"icon": "rainbow.svg",
+			"text": "Its leaves have only 1 color"
+		},
+		{
+			"name": "Hanging",
+			"icon": "hanging-plant.svg",
+			"text": "Looks great as a hanging plant"
+		},
+		{
+			"name": "Toxic",
+			"icon": "skull.svg",
+			"text": "This plant is toxic if ingested"
+		}
+	],
+	"photos": [
+		"/plantImages/senecio/senecio-rowleyanus-1.webp",
+		"/plantImages/senecio/senecio-rowleyanus-2.webp",
+		"/plantImages/senecio/senecio-rowleyanus--3.webp",
+		"/plantImages/senecio/senecio-rowleyanus-4.webp",
+		"/plantImages/senecio/senecio-rowleyanus-5.webp",
+		"/plantImages/senecio/senecio-rowleyanus-6.webp",
+		"/plantImages/senecio/senecio-rowleyanus-7.webp",
+		"/plantImages/senecio/senecio-rowleyanus-8.webp",
+		"/plantImages/senecio/senecio-rowleyanus-9.webp",
+		"/plantImages/senecio/senecio-rowleyanus-10.webp"
+	],
+	"care": [
+		{
+			"title": "How much light does the plant need?",
+			"icon": "sun.svg",
+			"text": "Senecio Rowleyanus is a succulent plant that grows fast and healthy in bright conditions and does well if the sun hits the plant directly only a bit. The best light conditions for a Senecio Rowleyanus are the ones similar to the outdoor's shade.\nOne of the best indoor places for a string of pearls is next to a north or east-facing window, because it will receive morning sun and bright light.\nIf you have a south or west-facing window, you should filter the light or place it a bit far from the window because the afternoon sun will burn it out.\nIndependently where you place it, make sure the light hits the top of your String of Pearls."
+		},
+		{
+			"title": "How to water String of Pearls?",
+			"icon": "drops.svg",
+			"text": "String of Pearls is a plant native to Africa, so we must replicate its natural habitat as much as possible. Native African plants are drought tolerant, so they have learned to hold water for long periods of time until they receive a large amount of water again, and this plant is no exception.\nThe String of Pearls does not like to be watered frequently. In fact, it is easy to suffocate this plant in soggy soil because its roots are thin. Instead, they like to receive a large amount of water every two weeks or so, depending on the temperature, the substrate, and the amount of light it receives.\nI personally recommend a well-drained mix along with a terracotta pot to make sure we are providing the right environment."
+		},
+		{
+			"title": "What's the ideal humidity?",
+			"icon": "sky.svg",
+			"text": "String of Pearls also known as bowl of pearls does well in average room humidity.\nThe drier the environment, the more frequently you'll water this plant. And the more humid is the environment, the less frequently you'll give it water."
+		},
+		{
+			"title": "How to fertilize?",
+			"icon": "vitamins.svg",
+			"text": "Apply a slow release fertilizer once a month during the growing season otherwise its easy to burn the roots."
+		},
+		{
+			"title": "Care tips",
+			"icon": "book.svg",
+			"text": "Don't mist your String of Hearts, it leads to rot.\nPlace your plants in a brighter place during winter.\nTo encourage spring flowers, cut back on watering and keep the plant in a consistent temperature of 60 degree during winter\nLet it dry before watering again.\nLet the light hit the top of the plant."
+		}
+	],
+	"similar": [
+		{
+			"name": "Alocasia Portora",
+			"photo": "alocasia/alocasia-Portora-1.webp"
+		},
+		{
+			"name": "Alocasia Cuprea",
+			"photo": "alocasia/alocasia-cuprea-1.webp"
+		},
+		{
+			"name": "Alocasia Baginda",
+			"photo": "alocasia/alocasia-baginda-1.webp"
+		}
+	]
+}

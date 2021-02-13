@@ -1,0 +1,91 @@
+{
+	"name": "Ficus Lyrata",
+	"otherNames": "Ficus Lyrata is commonly known as fiddle leaf fig.",
+	"description": "Ficus Lyrata commonly known as Fiddle Leaf Fig is a ficus that has become very popular in recent years thanks to how elegant and beautiful it is, the large size of its leaves, and how easy it is to take care of it.\nThe ficus Lyrata is a tree native to West Africa that grows in the rain forest and, like all plants, will increase in size as we give it more room to grow, reaching up to 10 meters. Its leaves are a uniform green color, soft and can measure up to 8 inches.\nFiddle Leaf Fig is a little more delicate than Ficus Elastica because it needs more light, is more sensitive to water, and is used to losing leaves.\nIf you have pets or small children be careful because it is toxic when ingested. That does not mean that you cannot have it, but it does mean that you must exercise extreme caution or attention.",
+	"features": [
+		{
+			"name": "Light",
+			"icon": "sun.svg",
+			"text": "Needs bright light"
+		},
+		{
+			"name": "Leaf Size",
+			"icon": "leaf.svg",
+			"text": "It has big leaves"
+		},
+		{
+			"name": "Leaf Color",
+			"icon": "rainbow.svg",
+			"text": "Its leaves have only 1 color"
+		},
+		{
+			"name": "Maximum height",
+			"icon": "plant-tall.svg",
+			"text": "Considered a tall plant. It can grow up to ~20m"
+		},
+		{
+			"name": "Room",
+			"icon": "house.svg",
+			"text": "Highly recommended for living room"
+		},
+		{
+			"name": "Toxic",
+			"icon": "skull.svg",
+			"text": "This plant is toxic if ingested"
+		}
+	],
+	"photos": [
+		"/plantImages/ficus/ficus-lyrata-1.webp",
+		"/plantImages/ficus/ficus-lyrata-2.webp",
+		"/plantImages/ficus/ficus-lyrata-3.webp",
+		"/plantImages/ficus/ficus-lyrata-4.webp",
+		"/plantImages/ficus/ficus-lyrata-5.webp",
+		"/plantImages/ficus/ficus-lyrata-6.webp",
+		"/plantImages/ficus/ficus-lyrata-7.webp",
+		"/plantImages/ficus/ficus-lyrata-8.webp",
+		"/plantImages/ficus/ficus-lyrata-9.webp",
+		"/plantImages/ficus/ficus-lyrata-10.webp",
+		"/plantImages/ficus/ficus-lyrata-11.webp"
+	],
+	"care": [
+		{
+			"title": "How much light does the plant need?",
+			"icon": "sun.svg",
+			"text": "Ficus Lyrata grows in a range of light conditions, from full sun to partial shade, but will not do well in deep shade, so avoid low-light conditions.\nThink that in the wild it receives plenty of direct sunlight, so as far as it has enough soil and space to grow, it will en enough. If you have your Fiddle Leaf Fig indoors, it's recommended to filter the light because the space to grow is limited, so it's easy that the leaves get burned out.\nRotation is also key! You will quickly notice your Lyrata will tend to bend and reach towards the light. Rotate the plant so it needs to bend the opposite way. This will ensure it grows tall and straight."
+		},
+		{
+			"title": "How to water Fiddle Leaf Fig?",
+			"icon": "drops.svg",
+			"text": "Like all plants, your Ficus Lyrata requires water to survive. However, this tree is native to Africa, so it doesn't need the same amount of water as an Amazon tree. Too much water will kill it.\nThe best practice is to stick your fingers a few inches into the ground to see how dry or wet it is. If the soil is dry a few inches below, go ahead and water your Lyrata with room temperature water. If you feel the soil is wet, wait to water until the soil is dry because it's better to underwatering than overwatering\nDo not allow your Lyrata to remain in the water for more than a day or two. New growth turns black and green leaves fall off from overwatering. Leaves become brown and crunchy, drop off, and may turn yellow when the plant needs water."
+		},
+		{
+			"title": "What's the ideal humidity?",
+			"icon": "sky.svg",
+			"text": "Ficus Lyrata does okay in average room humidity and doesn't need a high humidity. In case you live in a dry zone, try to elevate your humidity to 40-50% which is the average worldwide.\nYou can increase the humidity by grouping plants, using a humidifier or placing your plant into a bathroom."
+		},
+		{
+			"title": "How to fertilize?",
+			"icon": "vitamins.svg",
+			"text": "The safest and easiest fertilizer for your Ficus Lyrata is to use is a good liquid fertilizer. You’ll want to dilute the fertilizer to avoid overfeeding your plant and water it once every two weeks at most with that dilution..\nDon't feed your ficus in the winter, so it can rest and save energy for the next growing season."
+		},
+		{
+			"title": "Care tips",
+			"icon": "book.svg",
+			"text": "You must rotate periodically your Ficus Lyrata if placed indoors.\nYou should water your Fiddle Leaf Fig If the leaves are crispy.\nYou are overwatering it if new growth turns black or green leaves fall off.\nWipe the leaves with a damp cloth and gently dry to keep them clean and healthy.\nYou can trim some leaves of your ficus to make it look a rounded small tree.\nPay attention to your pets, because Fiddle Leaf Fig is toxic if ingested."
+		}
+	],
+	"similar": [
+		{
+			"name": "Alocasia Portora",
+			"photo": "alocasia/alocasia-Portora-1.webp"
+		},
+		{
+			"name": "Alocasia Cuprea",
+			"photo": "alocasia/alocasia-cuprea-1.webp"
+		},
+		{
+			"name": "Alocasia Baginda",
+			"photo": "alocasia/alocasia-baginda-1.webp"
+		}
+	]
+}

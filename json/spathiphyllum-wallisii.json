@@ -1,0 +1,77 @@
+{
+	"name": "Spathiphyllum Wallisii",
+	"otherNames": "Spathiphyllum Wallisii is commonly known as peace lily, white sails, spathe flower.",
+	"description": "The Peace Lily has been around for decades for a good reason: It is one of the easiest houseplants to grow because they thrive in low light conditions though they are toxic if ingested, so not highly recommended if you have cats, dogs or children.\nSpathiphyllums have been proven to be among the best houseplants to help improve indoor air quality which makes it perfect for bedrooms, livings rooms, and offices. Plus, it happily blooms throughout the year and can reach up to 90cm height.",
+	"features": [
+		{
+			"name": "Difficulty",
+			"icon": "smile.svg",
+			"text": "Easy plant, ideal for beginners"
+		},
+		{
+			"name": "Light",
+			"icon": "sun-with-cloud.svg",
+			"text": "Survives in low light"
+		},
+		{
+			"name": "Leaf Size",
+			"icon": "leaf.svg",
+			"text": "It has big leaves"
+		},
+		{
+			"name": "Leaf Color",
+			"icon": "rainbow.svg",
+			"text": "Its leaves have only 1 color"
+		},
+		{
+			"name": "Toxic",
+			"icon": "skull.svg",
+			"text": "This plant is toxic if ingested"
+		}
+	],
+	"photos": [
+		"/plantImages/spathiphyllum/spathiphyllum-wallisii-1.webp",
+		"/plantImages/spathiphyllum/spathiphyllum-wallisii-2.jpg"
+	],
+	"care": [
+		{
+			"title": "How much light does the plant need?",
+			"icon": "sun.svg",
+			"text": "Unlike many plants, the Peace Lily will thrive in low light spots, so it has no problem if you place it a few meters far from your window.\nIn addition, Spathiphyllum Wallisii can grow in artificial light so it's a plus for people who live in dark winters."
+		},
+		{
+			"title": "How to water Peace Lily?",
+			"icon": "drops.svg",
+			"text": "It's easy to know when a Peace Lily is thirsty because its leaves will look droop. Water your Spathiphyllum Wallisii frequently because they like to be moist, but once per week is more than enough in case it receives plenty of light.\nSpathiphyllum is sensible to chlorine so you better use filtered water or leave your tap water out for 24+ hours so the chlorine breaks down or its leaves will start to look bad."
+		},
+		{
+			"title": "What's the ideal humidity?",
+			"icon": "sky.svg",
+			"text": "Peace Lilies do well in average humidity conditions. If you want them to be super happy, you can increase the humidity by misting its leaves, grouping it with other plants or using a humidifier."
+		},
+		{
+			"title": "How to fertilize?",
+			"icon": "vitamins.svg",
+			"text": "You don't need to fertilize your Peace Lily, but in case you want, feed it during the growing season (spring and summer) using a 20-20-20 fertilizer.\nIf you notice the tips of the leaves and blooms turning brown, you’ve probably over-fertilized."
+		},
+		{
+			"title": "Care tips",
+			"icon": "book.svg",
+			"text": "Mist the leaves to increase humidity.\nWipe the leaves with a damp cloth and gently dry to keep them clean and healthy.\nKeep it far from cats, dogs and children because it causes mouth irritation.\nUse filtered water or tap water free of chlorine."
+		}
+	],
+	"similar": [
+		{
+			"name": "Alocasia Portora",
+			"photo": "alocasia/alocasia-Portora-1.webp"
+		},
+		{
+			"name": "Alocasia Cuprea",
+			"photo": "alocasia/alocasia-cuprea-1.webp"
+		},
+		{
+			"name": "Alocasia Baginda",
+			"photo": "alocasia/alocasia-baginda-1.webp"
+		}
+	]
+}

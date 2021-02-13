@@ -1,0 +1,79 @@
+{
+	"name": "Ceropegia Woodii",
+	"otherNames": "Ceropegia Woodii is commonly known as string of hearts, chain of hearts, hearts entangled, rosary vine, sweetheart vine.",
+	"description": "The Ceropegia Woodii is a trailing plant native to South Africa with a delicate heart-shaped foliage and slender vines that can reach up to 12' long in its natural environment. Some people like this plant because it looks beautiful as a hanging plant.",
+	"features": [
+		{
+			"name": "Light",
+			"icon": "sun.svg",
+			"text": "Needs bright light"
+		},
+		{
+			"name": "Leaf Size",
+			"icon": "leaf.svg",
+			"text": "It has small leaves"
+		},
+		{
+			"name": "Leaf Color",
+			"icon": "rainbow.svg",
+			"text": "Its leaves are colorful"
+		},
+		{
+			"name": "Hanging",
+			"icon": "hanging-plant.svg",
+			"text": "Looks great as a hanging plant"
+		},
+		{
+			"name": "Pet Friendly",
+			"icon": "cat-face.svg",
+			"text": "This plant is pet-friendly. Don't worry about toxicity"
+		}
+	],
+	"photos": [
+		"/plantImages/ceropegia/ceropegia-woodii-1.webp",
+		"/plantImages/ceropegia/ceropegia-woodii-2.webp",
+		"/plantImages/ceropegia/ceropegia-woodii-3.webp",
+		"/plantImages/ceropegia/ceropegia-woodii-4.webp"
+	],
+	"care": [
+		{
+			"title": "How much light does the plant need?",
+			"icon": "sun.svg",
+			"text": "Place your String of Hearts where it can receive plenty of bright indirect light. Small doses of direct sun are good, however too much direct sun can scorch the leaves."
+		},
+		{
+			"title": "How to water the String of Hearts?",
+			"icon": "drops.svg",
+			"text": "In the active growth period water sparingly, just enough to make the potting mixture barely moist, allowing the top two-thirds of the potting mixture to dry out between waterings.\nDuring winter, water very sparingly , just enough water to prevent the potting mixture from drying out completely.l run out of oxygen or its roots will rot."
+		},
+		{
+			"title": "What's the ideal humidity?",
+			"icon": "sky.svg",
+			"text": "Needs a moist environment with above average humidity. Stand on a pebble tray to improve humidity and mist frequently. Pop it in the shower for a while to give it an occasional boost."
+		},
+		{
+			"title": "How to fertilize?",
+			"icon": "vitamins.svg",
+			"text": "Apply a slow release fertilizer once a month during the growing season."
+		},
+		{
+			"title": "Care tips",
+			"icon": "book.svg",
+			"text": "Don't place this plant in low light conditions or it will lose its color.\nDon't over water it, the roots are skinny and can get root rot.\nLet it dry before watering again.\nThis plant is dormant during winter."
+		}
+	],
+	"similar": [
+		{
+			"name": "Alocasia Portora",
+			"photo": "alocasia/alocasia-Portora-1.webp"
+		},
+		{
+			"name": "Alocasia Stingray",
+			"photo": "alocasia/alocasia-stingray-1.webp"
+		},
+		{
+			"name": "Alocasia Baginda",
+			"photo": "alocasia/alocasia-baginda-1.webp"
+		}
+	]
+}

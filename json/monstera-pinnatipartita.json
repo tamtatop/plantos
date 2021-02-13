@@ -1,0 +1,88 @@
+{
+	"name": "Monstera Pinnatipartita",
+	"otherNames": "Monstera Pinnatipartita is commonly known as swiss cheese plant, mexican plant, hurricane plant.",
+	"description": "Monstera Pinnatipartita is a rare evergreen and beautiful climbing plant originally from South America that looks similar to Monstera Deliciosa. It has divided leaves when it matures and produces white waxy flowers that along with its aerial roots, make it look wildly.\nMonstera Pinnatipartita must be placed away from the direct sun because it will burn its leaves, and far from pets and children because it's mildly toxic if ingested.\nIt is so recommended to use totems or to place it in a spot where it can trail to maximize its growth. As a houseplant it doesn't grow much but outside, it can take a whole big corner.",
+	"features": [
+		{
+			"name": "Light",
+			"icon": "sun.svg",
+			"text": "Needs bright light"
+		},
+		{
+			"name": "Leaf Size",
+			"icon": "leaf.svg",
+			"text": "It has big leaves"
+		},
+		{
+			"name": "Leaf Color",
+			"icon": "rainbow.svg",
+			"text": "Its leaves have only 1 color"
+		},
+		{
+			"name": "Maximum height",
+			"icon": "plant-tall.svg",
+			"text": "Considered a tall plant. It can grow up to ~5m"
+		},
+		{
+			"name": "Room",
+			"icon": "house.svg",
+			"text": "Highly recommended for bathroom"
+		},
+		{
+			"name": "Toxic",
+			"icon": "skull.svg",
+			"text": "This plant is toxic if ingested"
+		}
+	],
+	"photos": [
+		"/plantImages/monstera/monstera-pinnatipartita-1.webp",
+		"/plantImages/monstera/monstera-pinnatipartita-2.webp",
+		"/plantImages/monstera/monstera-pinnatipartita-3.webp",
+		"/plantImages/monstera/monstera-pinnatipartita-4.webp",
+		"/plantImages/monstera/monstera-pinnatipartita-5.webp",
+		"/plantImages/monstera/monstera-pinnatipartita-6.webp",
+		"/plantImages/monstera/monstera-pinnatipartita-7.webp",
+		"/plantImages/monstera/monstera-pinnatipartita-8.webp"
+	],
+	"care": [
+		{
+			"title": "How much light does the plant need?",
+			"icon": "sun.svg",
+			"text": "Monstera Pinnatipartita can grow about anywhere in your home! It tolerates low light, but you may see that it grows slower than usual and that the leaves become darker.\nTo see your monstera growing fast and healthy, place it in a bright place with an hour of morning direct sun at most. Another trick to spread your monstera is to use totems or other surfaces to make it trail over."
+		},
+		{
+			"title": "How to water Monstera Pinnatipartita?",
+			"icon": "drops.svg",
+			"text": "Water your Monstera Pinnatipartita when its soil becomes almost completely dry. The amount of water your plant needs depends on so many things such as temperature, how much light it receives, etc. but there's a big probability that you'll have to water your monstera once a week.\nIt's important to water your monstera periodically because somehow this plants get used to it and grows better. Water your monstera thoroughly until water leaves the drainage holes or water it's from the bottom placing its roots on water.\nYou can see if you're over watering your monstera because it's leaves will turn brown."
+		},
+		{
+			"title": "What's the ideal humidity?",
+			"icon": "sky.svg",
+			"text": "Monstera does well in average humidity conditions, but it will appreciate if you increase it.\nThere are many ways to increase humidity levels but the most effective are humidifier and grouping plants together."
+		},
+		{
+			"title": "How to fertilize?",
+			"icon": "vitamins.svg",
+			"text": "Fertilize your Monstera Pinnatipartita once a week during the spring and summer and they will grow super fast. Fertilize your monstera with a 20-20-20 or 20-10-10 fertilizer.\nDon't fertilize your monstera during winter so it can rest."
+		},
+		{
+			"title": "Care tips",
+			"icon": "book.svg",
+			"text": "Give your Monstera Pinnatipartita bright light.\nWipe the leaves with a damp cloth and gently dry to keep them clean and healthy.\nDon't let your Monstera remain in water.\nLet your Monstera trail surfaces like totems, grills or walls.\nMonstera roots are not the type of roots that damage walls or surfaces.\nRotate your Monstera periodically.\nRaise the temperature and humidity to make your monstera feel like home."
+		}
+	],
+	"similar": [
+		{
+			"name": "Alocasia Portora",
+			"photo": "alocasia/alocasia-Portora-1.webp"
+		},
+		{
+			"name": "Alocasia Cuprea",
+			"photo": "alocasia/alocasia-cuprea-1.webp"
+		},
+		{
+			"name": "Alocasia Baginda",
+			"photo": "alocasia/alocasia-baginda-1.webp"
+		}
+	]
+}

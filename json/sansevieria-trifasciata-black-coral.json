@@ -1,0 +1,94 @@
+{
+	"name": "Sansevieria Trifasciata Black Coral",
+	"otherNames": "Sansevieria Trifasciata Black Coral is commonly known as sansevieria black coral, snake plant, black coral snake plant, mother's tongue, african spear, magic sword.",
+	"description": "Sansevieria Trifasciata Black Coral is a variety of snake plant with narrow leaves with vertically wide gray-green wavy horizontal bands on a dark green background.\nThe leaves are so dark when they first emerge that they almost appear black, and these younger leaves lack any of the bands that appear as the leaves age.\nThis cultivar plant is sometimes confused with an older Sansevieria Trifasciata variety called 'Black Gold', which should have a yellow margin that the Sansevieria Black Gold lacks.\nSansevieria Trifasciata is poisonous to dogs and cats (they can cause nausea, vomiting, and diarrhea), so you should keep it stay away from pets and children. Sansevierias are considered air purifiers because they filter some toxins from the air, and therefore, it is recommended to have them in offices, bedrooms or the living room.",
+	"features": [
+		{
+			"name": "Difficulty",
+			"icon": "sun.svg",
+			"text": "Easy plant, ideal for beginners"
+		},
+		{
+			"name": "Light",
+			"icon": "sun-with-cloud.svg",
+			"text": "Survives in low light"
+		},
+		{
+			"name": "Water",
+			"icon": "cactus.svg",
+			"text": "Drought tolerant plant, so you can forget to water it."
+		},
+		{
+			"name": "Leaf Size",
+			"icon": "leaf.svg",
+			"text": "It has big leaves"
+		},
+		{
+			"name": "Leaf Color",
+			"icon": "rainbow.svg",
+			"text": "Its leaves are colorful"
+		},
+		{
+			"name": "Room",
+			"icon": "house.svg",
+			"text": "Highly recommended for bedroom and living room"
+		},
+		{
+			"name": "Toxic",
+			"icon": "skull.svg",
+			"text": "This plant is toxic if ingested"
+		}
+	],
+	"photos": [
+		"/plantImages/sansevieria/sansevieria-trifasciata-black-coral-1.webp",
+		"/plantImages/sansevieria/sansevieria-trifasciata-black-coral-2.webp",
+		"/plantImages/sansevieria/sansevieria-trifasciata-black-coral-3.webp",
+		"/plantImages/sansevieria/sansevieria-trifasciata-black-coral-4.webp",
+		"/plantImages/sansevieria/sansevieria-trifasciata-black-coral-5.webp",
+		"/plantImages/sansevieria/sansevieria-trifasciata-black-coral-6.webp",
+		"/plantImages/sansevieria/sansevieria-trifasciata-black-coral-7.webp",
+		"/plantImages/sansevieria/sansevieria-trifasciata-black-coral-8.webp",
+		"/plantImages/sansevieria/sansevieria-trifasciata-black-coral-9.webp"
+	],
+	"care": [
+		{
+			"title": "How much light does the plant need?",
+			"icon": "sun.svg",
+			"text": "Snake plants thrive in low light conditions, but its growth will be slowed down. Sansevierias can stand some hours of direct sunlight because they are succulents, but they love being in indirect bright light, so place it next to any window making sure to filter the afternoon sun with a curtain.\nSansevieria plants have more vibrant colors if they are placed in bright spots, so if you place them in dark places, their leaves will turn into dark green."
+		},
+		{
+			"title": "How to water Sansevieria Black Coral?",
+			"icon": "drops.svg",
+			"text": "Sansevieria Black Coral is water sensitive because it's a drought-tolerant plant, so you don't want to overwater it, but like any plant, the more light it receives, the more water will need.\nWater your Snake plant thoroughly when all the soil in the pot is completely dry, and reduce the amount of water during winter to decrease the probability of root rot.\nIf your Sansevieria feels light after weighing it, you may need to water it."
+		},
+		{
+			"title": "What's the ideal humidity?",
+			"icon": "sky.svg",
+			"text": "Sansevieria Trifasciata Black Coral likes high humidity because is a tropical plant, but it will be happy as well in average room humidity."
+		},
+		{
+			"title": "How to fertilize?",
+			"icon": "vitamins.svg",
+			"text": "Fertilize your Sansevieria Black coral every month or two during the growing season with a liquid feed."
+		},
+		{
+			"title": "Care tips",
+			"icon": "book.svg",
+			"text": "Living rooms and bedrooms are good spots to place your Sansevieria because it removes air toxins.\nSansevierias are mildly toxic if ingested, so put it away from cats, dogs and children.\nIf the leaves are drooping it's because you're over-watering it, let it dry for a while and it will recover.\nSansevieria Trifasciata usually dies because of over-watering. Don't do it.\nDon't repot until it the roots have completely filled the pot."
+		}
+	],
+	"similar": [
+		{
+			"name": "Alocasia Portora",
+			"photo": "alocasia/alocasia-Portora-1.webp"
+		},
+		{
+			"name": "Alocasia Cuprea",
+			"photo": "alocasia/alocasia-cuprea-1.webp"
+		},
+		{
+			"name": "Alocasia Baginda",
+			"photo": "alocasia/alocasia-baginda-1.webp"
+		}
+	]
+}

@@ -4,8 +4,9 @@ export function render(jsonToRender){
       document.querySelector('.content').innerHTML=html;
       setText(data);
       document.querySelector('.plCards').innerHTML=cardsAll(data.features);
-       document.querySelector('.plDesc').innerHTML=plantDescription(data.description);
-       document.querySelector('.plGallery').innerHTML=plantGallery(data.photos);
+      document.querySelector('.plDesc').innerHTML=plantDescription(data.description, "");
+      document.querySelector('.plGallery').innerHTML=plantGallery(data.photos);
+      document.querySelector('.plCareInfo').innerHTML=careCardAll(data.care);
     });
   })
 }
@@ -15,10 +16,10 @@ function setText(data){
   document.querySelector('.plSubtitle').innerHTML=data.otherNames;
 }
 
-function plantDescription(text) {
+function plantDescription(text, extraClass) {
   return text.split('\n').map(paragraph => 
       `
-      <p>${paragraph}</p>
+      <p class="paragraph ${extraClass}">${paragraph}</p>
       `
     ).join('');
 }
@@ -47,6 +48,24 @@ function plantCardComp(data){
 
 function cardsAll(data){
   return data.map(subData => plantCardComp(subData)).join('');
+}
+
+function careCard(data) {
+  return `
+    <div class="plCareCard plTile">
+      <div class="plTop">
+        <img src="emojis/${data.icon}">
+        <div class="plTopTitle">${data.title}</div>
+      </div>
+      <div class="plMain">
+        ${plantDescription(data.text, "plCareText")}
+      </div>
+    </div>
+  `
+}
+
+function careCardAll(data){
+  return data.map(subData => careCard(subData)).join('');
 }
 
 
