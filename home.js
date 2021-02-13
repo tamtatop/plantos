@@ -25,11 +25,13 @@ let html = `
 
 export function render(){
 	document.querySelector('.content').innerHTML=html;
-	fetch('/json/all.json').then(response => response.json()).then(data => gridAll(data)).then(html => {
-		document.querySelector('.plantsGrid').innerHTML=html;
-		// addGridListeners();
-	})
+	fetch('/json/all.json').then(response => response.json()).then(data => drawItems(data));
 	Filter.render();
+}
+
+export function drawItems(response){
+	let html = gridAll(response);
+	document.querySelector('.plantsGrid').innerHTML=html;
 }
 
 

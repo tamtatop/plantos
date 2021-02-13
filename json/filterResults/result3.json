@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Alocasia Amazonica",
+		"id": "alocasia-amazonica",
+		"description": "Alocasia Amazonica is a hybrid plant of Alocasia Longiloba and Alocasia Sanderiana that are native to Asia although this one is from America.",
+		"photo": "alocasia-amazonica-1.webp",
+		"features": [
+			{
+				"icon": "fire.svg",
+				"text": "trendy"
+			},
+			{
+				"icon": "photo.svg",
+				"text": "12"
+			}
+		]
+	},
+	{
+		"name": "Monstera Pinnatipartita",
+		"id": "monstera-pinnatipartita",
+		"description": "Monstera Pinnatipartita is a rare evergreen and beautiful climbing plant originally from South America that looks similar to Monstera Deliciosa. It has divided leaves when it matures and produces white waxy flowers that along with its aerial roots, make it look wildly.",
+		"photo": "monstera-pinnatipartita-1.webp",
+		"features": [
+			{
+				"icon": "leaf-monstera.svg",
+				"text": "rare"
+			},
+			{
+				"icon": "photo.svg",
+				"text": "8"
+			}
+		]
+	},
+	{
+		"name": "Sansevieria Trifasciata Black Coral",
+		"id": "sansevieria-trifasciata-black-coral",
+		"description": "Sansevieria Trifasciata Black Coral is a variety of snake plant with narrow leaves with vertically wide gray-green wavy horizontal bands on a dark green background.",
+		"photo": "sansevieria-trifasciata-black-coral-1.webp",
+		"features": [
+			{
+				"icon": "medal.svg",
+				"text": "popular"
+			},
+			{
+				"icon": "photo.svg",
+				"text": "9"
+			}
+		]
+	}
+]

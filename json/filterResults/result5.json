@@ -1,0 +1,34 @@
+[
+	{
+		"name": "Senecio Rowleyanus",
+		"id": "senecio-rowleyanus",
+		"description": "Senecio Rowleyanus are succulent plants native to Africa with a beautiful look. String of Pearls is a drought-tolerant plant that stores water in its rounded leaves that reminds us of small pearls making it sensitive to water, so avoid overwatering it.",
+		"photo": "senecio-rowleyanus-1.webp",
+		"features": [
+			{
+				"icon": "fire.svg",
+				"text": "trendy"
+			},
+			{
+				"icon": "photo.svg",
+				"text": "14"
+			}
+		]
+	},
+	{
+		"name": "Alocasia Amazonica",
+		"id": "alocasia-amazonica",
+		"description": "Alocasia Amazonica is a hybrid plant of Alocasia Longiloba and Alocasia Sanderiana that are native to Asia although this one is from America.",
+		"photo": "alocasia-amazonica-1.webp",
+		"features": [
+			{
+				"icon": "fire.svg",
+				"text": "trendy"
+			},
+			{
+				"icon": "photo.svg",
+				"text": "12"
+			}
+		]
+	}
+]

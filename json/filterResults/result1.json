@@ -1,0 +1,66 @@
+[
+	{
+		"name": "Ceropegia Woodii",
+		"id": "ceropegia-woodii",
+		"description": "The Ceropegia Woodii is a trailing plant native to South Africa with a delicate heart-shaped foliage and slender vines that can reach up to 12' long in its natural environment. Some people like this plant because it looks beautiful as a hanging plant.",
+		"photo": "ceropegia-woodii-1.webp",
+		"features": [
+			{
+				"icon": "fire.svg",
+				"text": "trendy"
+			},
+			{
+				"icon": "photo.svg",
+				"text": "4"
+			}
+		]
+	},
+	{
+		"name": "Ficus Lyrata",
+		"id": "ficus-lyrata",
+		"description": "Ficus Lyrata commonly known as Fiddle Leaf Fig is a ficus that has become very popular in recent years thanks to how elegant and beautiful it is, the large size of its leaves, and how easy it is to take care of it.",
+		"photo": "ficus-lyrata-1.webp",
+		"features": [
+			{
+				"icon": "fire.svg",
+				"text": "trendy"
+			},
+			{
+				"icon": "photo.svg",
+				"text": "11"
+			}
+		]
+	},
+	{
+		"name": "Sansevieria Trifasciata Black Coral",
+		"id": "sansevieria-trifasciata-black-coral",
+		"description": "Sansevieria Trifasciata Black Coral is a variety of snake plant with narrow leaves with vertically wide gray-green wavy horizontal bands on a dark green background.",
+		"photo": "sansevieria-trifasciata-black-coral-1.webp",
+		"features": [
+			{
+				"icon": "medal.svg",
+				"text": "popular"
+			},
+			{
+				"icon": "photo.svg",
+				"text": "9"
+			}
+		]
+	},
+		{
+		"name": "Spathiphyllum Wallisii",
+		"id": "spathiphyllum-wallisii",
+		"description": "The Peace Lily has been around for decades for a good reason: It is one of the easiest houseplants to grow because they thrive in low light conditions though they are toxic if ingested, so not highly recommended if you have cats, dogs or children.",
+		"photo": "spathiphyllum-wallisii-1.webp",
+		"features": [
+			{
+				"icon": "medal.svg",
+				"text": "popular"
+			},
+			{
+				"icon": "photo.svg",
+				"text": "1"
+			}
+		]
+	}
+]

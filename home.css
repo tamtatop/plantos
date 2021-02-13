@@ -69,7 +69,7 @@
 .plantsGrid {
 	display: grid;
 	row-gap: 3rem;
-	grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+	grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
 	/*grid-template-columns: 50% 50%;*/
 	grid-gap: 2rem 1rem;
 	margin-top: 20px;
@@ -94,7 +94,7 @@
 	max-width: 100%;
 	width: 300px;
 	border-radius: 10px;
-	height: 60%;
+	height: 50%;
 }
 
 .plantName {
@@ -157,6 +157,13 @@
 	}
 }
 
+@media screen and (min-width:550px) {
+	.plantsGrid {
+		grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+	}
+	
+}
+
 @media screen and (max-width:768px) {
 	.popup {
 		right: 0;
@@ -183,8 +190,20 @@
  		width: 500px;
  	}
 
+ 	.plantsGrid {
+ 		grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+ 	}
+
+ 	.gridComp img {
+		height: 60%
+	}
 }
 
+@media screen and (min-width:1024px) {
+	.plantsGrid {
+		grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+	}
+}
 
 
 

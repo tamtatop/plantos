@@ -1,0 +1,18 @@
+[
+	{
+		"name": "Ceropegia Woodii",
+		"id": "ceropegia-woodii",
+		"description": "The Ceropegia Woodii is a trailing plant native to South Africa with a delicate heart-shaped foliage and slender vines that can reach up to 12' long in its natural environment. Some people like this plant because it looks beautiful as a hanging plant.",
+		"photo": "ceropegia-woodii-1.webp",
+		"features": [
+			{
+				"icon": "fire.svg",
+				"text": "trendy"
+			},
+			{
+				"icon": "photo.svg",
+				"text": "4"
+			}
+		]
+	}
+]

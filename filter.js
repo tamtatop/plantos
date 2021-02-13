@@ -1,13 +1,12 @@
+import * as Home from './home.js'
+
 export function render() {
-	console.log("HERE1");
 	fetch('filter.html').then(resp=>resp.text()).then(html=>{
-		console.log(html);
 		document.querySelector('.popup').innerHTML=html;
 		document.querySelector('.flMain').innerHTML = filterAll(filtersData);
 		addListeners();
 
 	});
-	console.log("HERE");
 }
 
 function smallFilterComponent(data){
@@ -190,7 +189,7 @@ let filtersData = [
 
 function tileClicked(item){
 	item.classList.toggle('active')
-	console.log(sendRequest())
+	sendRequest();
 }
 
 function sendRequest(){
@@ -203,10 +202,20 @@ function sendRequest(){
 		}
 	})
 
-	fetch('/data.json', {
+	let num = Math.floor(Math.random() * 5) + 1
+	////////////////////////////////
+	/////// რეალური back არ მიწერია და ვაბრუნებ რანდომ json ფაილებს,
+	/////// თუმცა პირველი fetch-ით ვაგზავნი ფილტრის შედეგებს და 
+	/////// ნამდვილი ბექის შემთხვევაში ის მიხედავდა საქმეს.
+	fetch(`/json/filterResults/result${num}.json`, {
 	  method: 'post',
 	  body: JSON.stringify(toSend)
-	})
+	});
+
+	/////// ეს fetch ხატავს შედეგებს (რადგან back არ მიწერია)
+	fetch(`/json/filterResults/result${num}.json`).then(response => response.json()).then(data => Home.drawItems(data));
+
+	console.log(toSend);
 }
 
 function addListeners(){
@@ -216,12 +225,10 @@ function addListeners(){
 		document.querySelector('.filtersBut').addEventListener("click", openFilter);
 }
 
-function closeFilter(){
+export function closeFilter(){
 	document.querySelector('.popup').style.display = "none";
 }
 
 function openFilter(){
 	document.querySelector('.popup').style.display = "block";
 }
-
-console.log('bla')
